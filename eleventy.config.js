@@ -1,10 +1,10 @@
-// export const test = 'hi!';
-
-export default function (config) {
+export function eleventyConfig(config) {
 	return {
 		dir: {
-			input: './src',
+			input: 'source',
 			output: 'build',
 		},
 	};
 }
+
+export const test = 'hi!';
